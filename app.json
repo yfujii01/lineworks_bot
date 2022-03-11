@@ -1,0 +1,24 @@
+{
+    "env": {
+        "CLIENT_ID": {
+          "description": "接続アプリケーションのコンシューマ鍵",
+          "value": ""
+        },
+        "CLIENT_SECRET": {
+          "description": "接続アプリケーションのコンシューマの秘密",
+          "value": ""
+        },
+        "USERNAME": {
+          "description": "APIユーザのユーザID",
+          "value": ""
+        },
+        "PASSWORD": {
+          "description": "APIユーザのパスワード",
+          "value": ""
+        },
+        "SF_URL": {
+          "description": "接続するSalesforceのドメイン",
+          "value": "https://xxxx.my.salesforce.com/"
+        }
+      }
+}
