@@ -12,12 +12,12 @@ router.get("/", (ctx, next) => {
 });
 router.post("/", (ctx, next) => {
     console.log('post call')
-    console.log(ctx.body);
-
-    ctx.body = "Hello World!!";
+    console.log(ctx.request.body);
+    ctx.body = ctx.request.body;
+    ctx.body.test = 'これはテストです';
 });
 
 app.use(router.routes());
 app.use(router.allowedMethods());
-
+app.use(koaBody())
 app.listen(process.env.PORT || 3000);
