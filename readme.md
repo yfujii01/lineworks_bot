@@ -1,3 +1,3 @@
 # koa demo
 
-[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)]()
+[![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
